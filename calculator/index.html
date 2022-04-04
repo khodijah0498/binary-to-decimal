@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>project-1</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <span class="description">Calculator</span>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                 <a href="#">standard</a>
+                 <a href="#">Scientific</a>
+                 <a href="#">Programmer</a>
+                 <a href="#">Graphing</a>
+               </div>
+               <span onclick="openNav()">&#9776;</span>
+               <span id="output"></span>
+            <div class="numbutton">
+                <button>%</button>
+                <button>CE</button>
+                <button>C</button>
+                <button>X</button>
+            </div>
+            <div class="numbutton">
+                <button>1/x</button>
+                <button>x<sup>2</sup></button>
+                <button>√x</button>
+                <button class="sign">/</button>
+            </div>
+            <div class="numbutton">
+                <button class="numbers">7</button>
+                <button class="numbers">8</button>
+                <button class="numbers">9</button>
+                <button class="sign">*</button>
+            </div>
+            <div class="numbutton">
+                <button class="numbers">4</button>
+                <button class="numbers">5</button>
+                <button class="numbers">6</button>
+                <button class="sign">-</button>
+            </div>
+            <div class="numbutton">
+                <button class="numbers">1</button>
+                <button class="numbers">2</button>
+                <button class="numbers">3</button>
+                <button class="sign">+</button>
+            </div>
+            <div class="down-button">
+                <!-- <button class="numbers">+/-</button> -->
+                <button class="numbers zero">0</button>
+                <button class="numbers dot">.</button>
+                <button class="equal-sign">=</button>
+            </div>
+            
+        </div>
+        <script src="./project.js" defer ></script>
+    </body>
